@@ -1,4 +1,4 @@
-package com.mj.sticky.frame.observer.view
+package com.mj.mylibrary
 
 import android.content.Context
 
