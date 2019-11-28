@@ -1,23 +1,22 @@
 package com.mj.mylibrary
 
 import android.content.Context
+import android.support.design.widget.AppBarLayout
+import android.support.design.widget.CollapsingToolbarLayout
+import android.support.design.widget.CoordinatorLayout
+import android.support.v7.widget.AppCompatImageButton
+import android.support.v7.widget.AppCompatTextView
+import android.support.v7.widget.RecyclerView
 
 
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.*
 import com.donkingliang.groupedadapter.widget.StickyHeaderLayout
 
 import com.scwang.smartrefresh.layout.SmartRefreshLayout
 
-import androidx.appcompat.widget.AppCompatImageButton
-import androidx.appcompat.widget.AppCompatTextView
-import androidx.coordinatorlayout.widget.CoordinatorLayout
-import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.appbar.AppBarLayout
-import com.google.android.material.appbar.CollapsingToolbarLayout
-import com.mj.mylibrary.R
+
 
 class StickyRecyclerView : RelativeLayout {
     var ct:Context?=null
