@@ -7,6 +7,7 @@ import android.support.design.widget.CoordinatorLayout
 import android.support.v7.widget.AppCompatImageButton
 import android.support.v7.widget.AppCompatTextView
 import android.support.v7.widget.RecyclerView
+import android.support.v7.widget.Toolbar
 
 
 import android.util.AttributeSet
@@ -24,8 +25,8 @@ class StickyRecyclerView : RelativeLayout {
     var root_layout: CoordinatorLayout?=null
     var app_bar_layout: AppBarLayout?=null
     var collapsing_toolbar_layout: CollapsingToolbarLayout?=null
-    var head_layout:LinearLayout ?=null
-    var fl_home_head:FrameLayout?=null
+    var head_layout: LinearLayout?=null
+    var fl_home_head: FrameLayout?=null
     var iv_main_headPortrait: ImageView?=null
     var tv_main_username: TextView?=null
     var tv_login_out_main:TextView?=null
@@ -34,7 +35,7 @@ class StickyRecyclerView : RelativeLayout {
     var rl_homeType_title:RelativeLayout?=null
     var tv_homeType_title:TextView?=null
     var tv_approval_count:TextView?=null
-    var main_toolbar:Toolbar?=null
+    var main_toolbar: Toolbar?=null
     var layout_toolbar:RelativeLayout?=null
     var mine_btn_back: AppCompatImageButton?=null
     var mine_tv_title: AppCompatTextView?=null
