@@ -33,7 +33,6 @@
                     <TextView
                         android:id="@+id/tv_office"
                         android:drawablePadding="5dp"
-                        android:drawableLeft="@drawable/icon_office"
                         android:paddingTop="5dp"
                         android:paddingBottom="15dp"
                         android:layout_marginLeft="15dp"
