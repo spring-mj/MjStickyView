@@ -47,8 +47,8 @@ class StickyRecyclerView : RelativeLayout {
     var tv_overTime_footer:TextView?=null
     var ll_travel_takeup_main:LinearLayout?=null
     var tv_travel_footer:TextView ?=null
-//    var iv_home_head:ImageView?=null
-//    var tv_office:TextView?=null
+    var iv_home_head:ImageView?=null
+    var tv_office:TextView?=null
     constructor(context: Context) : super(context) {
         init(context)
     }
@@ -90,7 +90,7 @@ class StickyRecyclerView : RelativeLayout {
         tv_overTime_footer=view.findViewById(R.id.tv_overTime_footer)
         ll_travel_takeup_main=view.findViewById(R.id.ll_travel_takeup_main)
         tv_travel_footer=view.findViewById(R.id.tv_travel_footer)
-//        iv_home_head=view.findViewById(R.id.iv_home_head)
-//        tv_office=view.findViewById(R.id.tv_office)
+        iv_home_head=view.findViewById(R.id.iv_home_head)
+        tv_office=view.findViewById(R.id.tv_office)
     }
 }
